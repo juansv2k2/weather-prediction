@@ -1,56 +1,4 @@
-# 🌦️ Weather Pr### Class Distribution Analysis
-
-The dataset shows a na\*\*Feature Importance Discover### Learning Curve Analysis
-
-![Learning Curve](./images/learning_curve.png)
-
-*The learning curve analysis reveals the model benefits from additional data, with training a*View the com*View the complete implementation with all visualizations in the [Jupyter notebook](weather-prediction.ipynb)*
-
-## 📸 Key Visualizations
-
-The project includes comprehensive visual analysis:
-
-- **Class Distribution**: Shows dataset balance and real-world representation
-- **Correlation Heatmap**: Identifies feature relationships and multicollinearity
-- **Feature Importance**: Ranks predictive power of weather variables
-- **Validation Curve**: Demonstrates optimal ensemble size selection
-- **Learning Curve**: Reveals model generalization capabilities
-- **Decision Boundaries**: Visualizes model decision-making patterns
-
-> All visualizations are generated and saved automatically when running the Jupyter notebook, providing professional-quality charts for presentations and analysis.te implementation with all visualizations in the [Jupyter notebook](weather-prediction.ipynb)\*
-
-## 📸 Key Visualizations
-
-The project includes comprehensive visual analysis:
-
-- **Class Distribution**: Shows dataset balance and real-world representation
-- **Correlation Heatmap**: Identifies feature relationships and multicollinearity
-- **Feature Importance**: Ranks predictive power of weather variables
-- **Validation Curve**: Demonstrates optimal ensemble size selection
-- **Learning Curve**: Reveals model generalization capabilities
-- **Decision Boundaries**: Visualizes model decision-making patterns
-
-> All visualizations are generated and saved automatically when running the Jupyter notebook, providing professional-quality charts for presentations and analysis.validation scores converging around 85% accuracy, indicating good generalization without significant overfitting.\*
-
-### Decision Boundary Visualization
-
-For the two most important features (MaxTemp vs Humidity3pm):
-
-![Decision Boundaries](./images/decision_boundaries.png)
-
-*Random Forest creates sophisticated, non-linear decision boundaries that effectively separate rain and no-rain conditions better than individual decision trees.*eature Importance](./images/feature_importance.png)
-
-_The Random Forest analysis reveals that Humidity3pm and MaxTemp emerge as the strongest predictors, aligning with meteorological domain knowledge and providing actionable insights for weather forecasting._
-
-**Hyperparameter Optimization:**
-
-![Validation Curve](./images/validation_curve.png)
-
-*Performance analysis shows the model plateaus around 100-250 estimators, demonstrating optimal ensemble size for balancing computational efficiency with predictive accuracy.*mbalance typical in weather prediction:
-
-![Class Distribution](./images/class_distribution.png)
-
-*Approximately 77% "No Rain" vs 23% "Rain" - a realistic representation of Australian weather patterns that creates the foundation for baseline model comparisons.*ion Using Ensemble Learning
+# 🌦️ Weather Prediction Using Ensemble Learning
 
 ## Project Overview
 
@@ -70,7 +18,9 @@ Weather prediction is crucial for agriculture, event planning, and daily decisio
 
 The dataset shows a natural imbalance typical in weather prediction:
 
-_The analysis reveals approximately 77% "No Rain" vs 23% "Rain" - a realistic representation of Australian weather patterns that creates the foundation for baseline model comparisons._
+![Class Distribution](./images/class_distribution.png)
+
+_Approximately 77% "No Rain" vs 23% "Rain" - a realistic representation of Australian weather patterns that creates the foundation for baseline model comparisons._
 
 ## 🎯 Project Methodology
 
@@ -117,9 +67,13 @@ These baselines provide context for evaluating ensemble improvements.
 
 **Feature Importance Discovery:**
 
+![Feature Importance](./images/feature_importance.png)
+
 _The Random Forest analysis reveals that Humidity3pm and MaxTemp emerge as the strongest predictors, aligning with meteorological domain knowledge and providing actionable insights for weather forecasting._
 
 **Hyperparameter Optimization:**
+
+![Validation Curve](./images/validation_curve.png)
 
 _Performance analysis shows the model plateaus around 100-250 estimators, demonstrating optimal ensemble size for balancing computational efficiency with predictive accuracy._
 
@@ -136,11 +90,15 @@ _Performance analysis shows the model plateaus around 100-250 estimators, demons
 
 ### Learning Curve Analysis
 
+![Learning Curve](./images/learning_curve.png)
+
 _The learning curve analysis reveals the model benefits from additional data, with training and validation scores converging around 85% accuracy, indicating good generalization without significant overfitting._
 
 ### Decision Boundary Visualization
 
 For the two most important features (MaxTemp vs Humidity3pm):
+
+![Decision Boundaries](./images/decision_boundaries.png)
 
 _Random Forest creates sophisticated, non-linear decision boundaries that effectively separate rain and no-rain conditions better than individual decision trees._
 
@@ -296,4 +254,15 @@ This project demonstrates **end-to-end machine learning expertise** from data pr
 
 _View the complete implementation with all visualizations in the [Jupyter notebook](weather-prediction.ipynb)_
 
-> **Note**: All data visualizations, performance charts, and analysis plots are generated and displayed within the Jupyter notebook. The notebook contains comprehensive visual analysis including class distribution plots, correlation heatmaps, feature importance charts, validation curves, learning curves, and decision boundary visualizations.
+## 📸 Key Visualizations
+
+The project includes comprehensive visual analysis:
+
+- **Class Distribution**: Shows dataset balance and real-world representation
+- **Correlation Heatmap**: Identifies feature relationships and multicollinearity
+- **Feature Importance**: Ranks predictive power of weather variables
+- **Validation Curve**: Demonstrates optimal ensemble size selection
+- **Learning Curve**: Reveals model generalization capabilities
+- **Decision Boundaries**: Visualizes model decision-making patterns
+
+> All visualizations are generated and saved automatically when running the Jupyter notebook, providing professional-quality charts for presentations and analysis.
